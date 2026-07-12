@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "task_id": "117f01ede7aa7528529c03181d24bce6",
+  "status": "success",
+  "result_urls": [
+    "https://tempfile.aiquickdraw.com/workers/images/image_1783857458121_b9u0b2.png"
+  ],
+  "error": null,
+  "api_response": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "117f01ede7aa7528529c03181d24bce6",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow. Nature in fresh natural summer colors: lush GREEN origami paper trees in many shades of green, green paper bushes and colorful paper summer flowers (red, orange, pink, yellow). Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: a residential street: ONE white paper family house with an empty pitched roof. At the curb a white paper delivery truck carrying the solar wholesaler logo from the first reference image (yellow circle with blue swoosh and white plug symbol) on its side, unloading pallets of blue solar panels. Next to it a smaller RED paper van of the independent electrician company with the lettering \\\\\\\"Elektro Müller\\\\\\\" and a small white hexagon logo with a red lightning bolt on its side. An installer crew of origami paper figures in yellow helmets already on scaffolding at the roof, starting immediately, panels handed up. Green paper garden with lush green origami trees and colorful summer paper flowers. The only text allowed: \\\\\\\"Elektro Müller\\\\\\\" on the red van.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857458121_b9u0b2.png\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 19,
+      "completeTime": 1783857460213,
+      "createTime": 1783857441166,
+      "creditsConsumed": 12
+    }
+  },
+  "message": "Task found",
+  "polling_strategy": {
+    "task_type": "image",
+    "recommended_interval_seconds": 15,
+    "max_wait_time_seconds": 180,
+    "backoff_strategy": "fixed",
+    "next_action": "task_complete",
+    "current_status": "completed",
+    "polling_instructions": {
+      "continue_polling": "Continue polling every 15 seconds until status changes to 'completed' or 'failed'",
+      "task_complete": "Task completed successfully - no further polling needed",
+      "task_failed": "Task failed - check error message and consider retrying"
+    }
+  }
+}

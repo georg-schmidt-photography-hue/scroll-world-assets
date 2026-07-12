@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "task_id": "9441c79e2152b2d426d32aad390f18a9",
+  "status": "success",
+  "result_urls": [
+    "https://tempfile.aiquickdraw.com/p/9441c79e2152b2d426d32aad390f18a9_1_1783857130_3263.png"
+  ],
+  "error": null,
+  "api_response": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "9441c79e2152b2d426d32aad390f18a9",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\",\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene4.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, corporate palette: white, royal blue and warm yellow accents, low-poly paper trees, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: the SAME single white paper family house from the second reference image, same street corner, now finished: its pitched roof fully covered with blue solar panels glowing softly, the scaffolding and trucks gone. A big folded-paper sun in warm yellow above the house, and a happy origami paper family (two parents, two children) standing in the front garden, arms raised joyfully, a paper dog, blue and yellow paper flowers. Only ONE house, warm optimistic finale mood. No text, no letters.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/p/9441c79e2152b2d426d32aad390f18a9_1_1783857130_3263.png\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 62,
+      "completeTime": 1783857132211,
+      "createTime": 1783857069885,
+      "creditsConsumed": 12
+    }
+  },
+  "message": "Task found",
+  "polling_strategy": {
+    "task_type": "image",
+    "recommended_interval_seconds": 15,
+    "max_wait_time_seconds": 180,
+    "backoff_strategy": "fixed",
+    "next_action": "task_complete",
+    "current_status": "completed",
+    "polling_instructions": {
+      "continue_polling": "Continue polling every 15 seconds until status changes to 'completed' or 'failed'",
+      "task_complete": "Task completed successfully - no further polling needed",
+      "task_failed": "Task failed - check error message and consider retrying"
+    }
+  }
+}

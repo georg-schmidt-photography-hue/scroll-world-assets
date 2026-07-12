@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "task_id": "ce21e7114838624d260b6dc15b7efc39",
+  "status": "success",
+  "result_urls": [
+    "https://tempfile.aiquickdraw.com/ggc/ce21e7114838624d260b6dc15b7efc39_1783857461480.png"
+  ],
+  "error": null,
+  "api_response": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "ce21e7114838624d260b6dc15b7efc39",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow. Nature in fresh natural summer colors: lush GREEN origami paper trees in many shades of green, green paper bushes and colorful paper summer flowers (red, orange, pink, yellow). Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: exactly the same solar wholesale company complex as in the reference image - same building, same solar panels on the roof, same yellow-blue logo on the roof, same truck docks and trucks - but ALL trees, bushes and landscape vegetation replaced with lush green summer origami trees and colorful paper flowers. The abstract blue and yellow paper mountains at the edges become soft green paper hills. No text, no letters.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/ce21e7114838624d260b6dc15b7efc39_1783857461480.png\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 27,
+      "completeTime": 1783857465522,
+      "createTime": 1783857437892,
+      "creditsConsumed": 12
+    }
+  },
+  "message": "Task found",
+  "polling_strategy": {
+    "task_type": "image",
+    "recommended_interval_seconds": 15,
+    "max_wait_time_seconds": 180,
+    "backoff_strategy": "fixed",
+    "next_action": "task_complete",
+    "current_status": "completed",
+    "polling_instructions": {
+      "continue_polling": "Continue polling every 15 seconds until status changes to 'completed' or 'failed'",
+      "task_complete": "Task completed successfully - no further polling needed",
+      "task_failed": "Task failed - check error message and consider retrying"
+    }
+  }
+}

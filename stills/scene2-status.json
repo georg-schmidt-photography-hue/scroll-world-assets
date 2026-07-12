@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "task_id": "3f52542bb24806a3c7f437a17996b76c",
+  "status": "success",
+  "result_urls": [
+    "https://tempfile.aiquickdraw.com/workers/images/image_1783857457674_duwlns.png"
+  ],
+  "error": null,
+  "api_response": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "3f52542bb24806a3c7f437a17996b76c",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow. Nature in fresh natural summer colors: lush GREEN origami paper trees in many shades of green, green paper bushes and colorful paper summer flowers (red, orange, pink, yellow). Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: the SAME flat single-story company complex as in the first reference image, but with its large flat roof lifted off to reveal the interior from above: one single level divided into four distinct open office zones separated by low paper partition walls. Zone 1 sales: nine origami paper figures (five women, four men) at desks with tiny paper headsets. Zone 2 order processing: four paper figures (three women, one man) among paper parcels. Zone 3 accounting: five paper women figures at desks with paper documents. Zone 4 planning: five paper figures (two women, three men) around a big paper table with rolled blueprints and a small paper solar roof model. Blue and yellow accent per zone, NOT a multi-story building, one flat level only. No text, no letters.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857457674_duwlns.png\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 20,
+      "completeTime": 1783857459533,
+      "createTime": 1783857439050,
+      "creditsConsumed": 12
+    }
+  },
+  "message": "Task found",
+  "polling_strategy": {
+    "task_type": "image",
+    "recommended_interval_seconds": 15,
+    "max_wait_time_seconds": 180,
+    "backoff_strategy": "fixed",
+    "next_action": "task_complete",
+    "current_status": "completed",
+    "polling_instructions": {
+      "continue_polling": "Continue polling every 15 seconds until status changes to 'completed' or 'failed'",
+      "task_complete": "Task completed successfully - no further polling needed",
+      "task_failed": "Task failed - check error message and consider retrying"
+    }
+  }
+}
