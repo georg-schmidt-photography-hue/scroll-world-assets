@@ -1,25 +1,25 @@
 {
   "success": true,
-  "task_id": "117f01ede7aa7528529c03181d24bce6",
+  "task_id": "81671f5fe78649eb732d9000e7291ebe",
   "status": "success",
   "result_urls": [
-    "https://tempfile.aiquickdraw.com/workers/images/image_1783857458121_b9u0b2.png"
+    "https://tempfile.aiquickdraw.com/workers/images/image_1783857825279_5h56tv.png"
   ],
   "error": null,
   "api_response": {
     "code": 200,
     "msg": "success",
     "data": {
-      "taskId": "117f01ede7aa7528529c03181d24bce6",
+      "taskId": "81671f5fe78649eb732d9000e7291ebe",
       "model": "nano-banana-2",
       "state": "success",
-      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow. Nature in fresh natural summer colors: lush GREEN origami paper trees in many shades of green, green paper bushes and colorful paper summer flowers (red, orange, pink, yellow). Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: a residential street: ONE white paper family house with an empty pitched roof. At the curb a white paper delivery truck carrying the solar wholesaler logo from the first reference image (yellow circle with blue swoosh and white plug symbol) on its side, unloading pallets of blue solar panels. Next to it a smaller RED paper van of the independent electrician company with the lettering \\\\\\\"Elektro Müller\\\\\\\" and a small white hexagon logo with a red lightning bolt on its side. An installer crew of origami paper figures in yellow helmets already on scaffolding at the roof, starting immediately, panels handed up. Green paper garden with lush green origami trees and colorful summer paper flowers. The only text allowed: \\\\\\\"Elektro Müller\\\\\\\" on the red van.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
-      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857458121_b9u0b2.png\"]}",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow, exactly like the first reference image. Nature: lush GREEN origami paper trees in several shades of green and green paper bushes; flowers ONLY sparse and ONLY in white and warm yellow, no red, no pink, no orange anywhere in the landscape. Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: a residential street: ONE white paper family house with an empty pitched roof. At the curb a delivery truck EXACTLY like the trucks in the first reference image (white trailer, blue cab, yellow accents) carrying the company logo (yellow circle with blue swoosh and white plug symbol) on its side, unloading pallets of blue solar panels. Next to it a smaller RED paper van of the independent electrician company with the lettering \\\\\\\"Elektro Müller\\\\\\\" and a small white hexagon logo with a red lightning bolt - the red van is the ONLY red object in the scene. An installer crew of origami paper figures in yellow helmets already on scaffolding at the roof, panels handed up. Green paper garden. The only text allowed: \\\\\\\"Elektro Müller\\\\\\\" on the red van.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857825279_5h56tv.png\"]}",
       "failCode": null,
       "failMsg": null,
-      "costTime": 19,
-      "completeTime": 1783857460213,
-      "createTime": 1783857441166,
+      "costTime": 21,
+      "completeTime": 1783857826654,
+      "createTime": 1783857804478,
       "creditsConsumed": 12
     }
   },

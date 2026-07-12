@@ -1,25 +1,25 @@
 {
   "success": true,
-  "task_id": "dc63176b070cee2e75c21016f5134875",
+  "task_id": "207cefcdaad31eb729a61320ff91d998",
   "status": "success",
   "result_urls": [
-    "https://tempfile.aiquickdraw.com/workers/images/image_1783857455976_sjzyim.png"
+    "https://tempfile.aiquickdraw.com/workers/images/image_1783857823938_fyppyf.png"
   ],
   "error": null,
   "api_response": {
     "code": 200,
     "msg": "success",
     "data": {
-      "taskId": "dc63176b070cee2e75c21016f5134875",
+      "taskId": "207cefcdaad31eb729a61320ff91d998",
       "model": "nano-banana-2",
       "state": "success",
-      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow. Nature in fresh natural summer colors: lush GREEN origami paper trees in many shades of green, green paper bushes and colorful paper summer flowers (red, orange, pink, yellow). Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: the warehouse interior of a solar wholesale company as one flowing paper scene: goods-in dock on the left with a paper truck unloading solar panel boxes, center aisle with high paper shelving racks where origami workers sort blue solar panels and yellow inverter boxes, right side a packing zone where paper figures strap pallets, and an open loading gate where a white paper semi truck with blue-yellow accents waits for handover to the freight carrier.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
-      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857455976_sjzyim.png\"]}",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow, exactly like the first reference image. Nature: lush GREEN origami paper trees in several shades of green and green paper bushes; flowers ONLY sparse and ONLY in white and warm yellow, no red, no pink, no orange anywhere in the landscape. Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: the warehouse of the SAME company as one open paper scene: goods-in dock on the left where a truck EXACTLY like the trucks in the first reference image (white trailer, blue cab, yellow accents) is unloading solar panel boxes, center with high paper shelving racks where origami workers sort blue solar panels and yellow inverter boxes, forklift driving, a packing zone where paper figures strap pallets, and an open loading gate where another white-trailer blue-cab truck waits for handover to the freight carrier. ALL trucks identical in design to the first reference image. No text, no letters.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857823938_fyppyf.png\"]}",
       "failCode": null,
       "failMsg": null,
-      "costTime": 17,
-      "completeTime": 1783857457948,
-      "createTime": 1783857440061,
+      "costTime": 22,
+      "completeTime": 1783857825820,
+      "createTime": 1783857803398,
       "creditsConsumed": 12
     }
   },

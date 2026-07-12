@@ -1,25 +1,25 @@
 {
   "success": true,
-  "task_id": "9441c79e2152b2d426d32aad390f18a9",
+  "task_id": "753ee84172fc12570b5a033686b70701",
   "status": "success",
   "result_urls": [
-    "https://tempfile.aiquickdraw.com/p/9441c79e2152b2d426d32aad390f18a9_1_1783857130_3263.png"
+    "https://tempfile.aiquickdraw.com/workers/images/image_1783857518137_zyyme6.png"
   ],
   "error": null,
   "api_response": {
     "code": 200,
     "msg": "success",
     "data": {
-      "taskId": "9441c79e2152b2d426d32aad390f18a9",
+      "taskId": "753ee84172fc12570b5a033686b70701",
       "model": "nano-banana-2",
       "state": "success",
-      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\",\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene4.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, corporate palette: white, royal blue and warm yellow accents, low-poly paper trees, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: the SAME single white paper family house from the second reference image, same street corner, now finished: its pitched roof fully covered with blue solar panels glowing softly, the scaffolding and trucks gone. A big folded-paper sun in warm yellow above the house, and a happy origami paper family (two parents, two children) standing in the front garden, arms raised joyfully, a paper dog, blue and yellow paper flowers. Only ONE house, warm optimistic finale mood. No text, no letters.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
-      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/p/9441c79e2152b2d426d32aad390f18a9_1_1783857130_3263.png\"]}",
+      "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene1-komplex.png\\\",\\\"https://raw.githubusercontent.com/georg-schmidt-photography-hue/scroll-world-assets/main/stills/scene4.png\\\"],\\\"aspect_ratio\\\":\\\"3:2\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Origami papercraft diorama, isometric aerial view, everything folded from clean matte paper, tilt-shift miniature feel, plain white background with soft contact shadow, centered composition. Buildings and vehicles in corporate palette white, royal blue and warm yellow. Nature in fresh natural summer colors: lush GREEN origami paper trees in many shades of green, green paper bushes and colorful paper summer flowers (red, orange, pink, yellow). Same paper world, same lighting and camera angle as the first reference image.\\\\nSubject: the SAME single white paper family house from the second reference image, same street corner, now finished: pitched roof fully covered with blue solar panels glowing softly, scaffolding and trucks gone. A big folded-paper sun in warm yellow above. In front of the house: a silver paper electric station wagon (estate car) charging at a small white wallbox on the house wall with a thin paper charging cable, and a small white paper heat pump unit standing at the side of the house. A happy origami paper family (two parents, two children) in the front garden, arms raised joyfully, a paper dog. Lush green origami trees and colorful summer paper flowers everywhere. Only ONE house, warm optimistic finale mood. No text, no letters.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/workers/images/image_1783857518137_zyyme6.png\"]}",
       "failCode": null,
       "failMsg": null,
-      "costTime": 62,
-      "completeTime": 1783857132211,
-      "createTime": 1783857069885,
+      "costTime": 24,
+      "completeTime": 1783857519945,
+      "createTime": 1783857495011,
       "creditsConsumed": 12
     }
   },
